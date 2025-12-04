@@ -5,12 +5,11 @@ include 'menu.php';
 
 
 $carModels = [
-    "Toyota Supra MK4"        => ["price" => 57000, "stock" => 4],
-    "Nissan Skyline R34 GT-R" => ["price" => 98000, "stock" => 2],
-    "Mazda RX-7 FD"           => ["price" => 51000, "stock" => 6],
-    "Honda NSX (Gen 1)"       => ["price" => 85000, "stock" => 3],
-    "Mitsubishi Lancer Evo X" => ["price" => 34000, "stock" => 8],
-    "Subaru Impreza WRX STI"  => ["price" => 38000, "stock" => 10],
+    "Toyota Supra MK4"        => ["price" => 1200000, "stock" => 4],
+    "Nissan Skyline R34 GT-R" => ["price" => 2100000, "stock" => 2],
+    "Mazda RX-7 FD"           => ["price" => 1001000, "stock" => 6],
+    "Mitsubishi Lancer Evo X" => ["price" => 1120000, "stock" => 4],
+    "Subaru Impreza WRX STI"  => ["price" => 1425000, "stock" => 7],
 ];
 
 
@@ -61,4 +60,3 @@ foreach ($carModels as $modelName => $data) {
 </table>
 
 <?php include 'footer.php'; ?>
-
