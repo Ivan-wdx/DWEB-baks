@@ -31,7 +31,7 @@ function get_tax_due(float $price, int $qty, int $tax = 0): float {
     
 ?>
 
-<h2 style="text-align:center;">JDM Sports Car — Stock Monitoring (USD)</h2>
+<h2 style="text-align:center;">JDM Sports Car — Stock Monitoring</h2>
 
 <table>
     <tr>
@@ -61,3 +61,4 @@ foreach ($carModels as $modelName => $data) {
 </table>
 
 <?php include 'footer.php'; ?>
+
