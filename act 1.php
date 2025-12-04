@@ -1,7 +1,7 @@
 <?php
 include 'header.php';
 include 'menu.php';
-require 'data.php';
+require 'data.php'; 
 ?>
 
 <h2>Car Dealership — PHP Control Structures Activity</h2>
@@ -19,7 +19,7 @@ if ($hour < 12) {
 echo "<hr>";
 
 foreach ($cars as $c) {
-    echo "<p><strong>{$c['model']}</strong> — ₱" . number_format($c['price']);
+    echo "<p><strong>{$c['model']}</strong> — $" . number_format($c['price']);
     if ($c['price'] <= 500000) {
         echo " — <span class='green'>Budget Car</span>";
     } elseif ($c['price'] <= 1500000) {
@@ -39,17 +39,17 @@ echo "<hr>";
 $month = 1;
 $payment = 10000;
 while ($month <= 5) {
-    echo "Month $month: Paid ₱" . number_format($payment) . "<br>";
+    echo "Month $month: Paid $" . number_format($payment) . "<br>";
     $month++;
 }
 echo "<hr>";
 
 $promo = rand(1, 4);
 switch ($promo) {
-    case 1: echo "FREE car detailing for every purchase!"; break;
-    case 2: echo "FREE 1-year maintenance package!"; break;
-    case 3: echo "FREE full tank on release day!"; break;
-    default: echo "₱10,000 CASH DISCOUNT!"; 
+    case 1: echo "FREE car detailing for every purchase"; break;
+    case 2: echo "FREE 1-year maintenance"; break;
+    case 3: echo "FREE full tank on release day"; break;
+    default: echo "$10,000 CASH DISCOUNT"; 
 }
 echo "<hr>";
 ?>
