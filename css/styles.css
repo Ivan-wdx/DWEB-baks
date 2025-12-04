@@ -2,25 +2,23 @@
 
 html, body {
   height: 100%;
-  margin: 0;
-  padding: 0;
 }
 
 body {
   font-family: "Raleway", sans-serif;
-  background-color: #2c003e; 
-  color: rgb(6, 0, 0);
-  margin: 0;
-  background-image: url("../img/bgcar.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  background-color: lightblue;
+  color: red;
+  margin: 0px;
+  background-image: url("../img/cars.png");
+  background-size: 245px 380px;
+  background-position: right top;
+  background-repeat: repeat-y;
 }
 
 h1 {
   font-family: "Playfair Display", serif;
   padding: 10px 20px 12px 20px;
-  margin: 0;
+  margin: 0px;
   color: black;
 }
 
@@ -30,22 +28,22 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   padding: 20px;
-  margin: 0;
+  margin: 0px;
 }
 
 p {
-  padding: 6px 20px;
-  margin: 0;
+  padding: 6px 20px 6px 20px;
+  margin: 0px;
 }
 
 table {
-  background-color: #530885;
+  background-color: #850825;
   margin: 10px;
   padding: 5px;
   border: 1px solid #fbccbf;
-  border-spacing: 0;
+  border-spacing: 0px;
 }
-
+  
 th {
   text-transform: uppercase;
   text-align: left;
@@ -55,7 +53,7 @@ th {
   background-color: #fbccbf;
   color: #850825;
 }
-
+  
 td {
   padding: 5px 10px;
 }
@@ -76,18 +74,19 @@ nav {
 nav a {
   text-transform: uppercase;
   padding: .5em;
-  color: #fff;
 }
-
 nav a:hover {
   color: #fff;
 }
-
+ 
 .button {
   background-color: #fbccbf;
   color: #850825;
   border-color: #fbccbf;
   border-radius: 300px;
+  -webkit-transition: .3s background-color linear;
+  -moz-transition: .3s background-color linear;
+  -o-transition: .3s background-color linear;
   transition: .3s background-color linear;
   display: inline-block;
   padding: 10px 20px;
@@ -102,13 +101,16 @@ nav a:hover {
 
 .button:hover {
   background-color: #fcba63;
-  color: #850825;
   border-radius: 300px;
+  -webkit-transition: .1s background-color linear;
+  -moz-transition: .1s background-color linear;
+  -o-transition: .1s background-color linear;
   transition: .1s background-color linear;
+  color: #850825;
 }
-
+  
 .offer {
-  text-transform: uppercase;
+  text-transform: uppercase;  
 }
 
 footer {
